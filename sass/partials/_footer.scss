@@ -1,0 +1,79 @@
+.Footer
+{
+  background-color: #353535;
+  display:flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.footer2{
+  max-width: 2000px;
+  margin-left: 7%;
+}
+
+a{
+    color: #000000;
+}
+.interieurFooter
+{
+  display: flex;
+  flex-direction: column;
+}
+.interieurFooter a
+{
+  font-family: Shrikhand;
+  color:white;
+  font-size:18px;
+  text-decoration: none;
+}
+.interieurFooter2
+{
+  margin-left:23px;
+  display: flex;
+  flex-direction: column;
+
+}
+.interieurFooter2 a
+{
+  font-family: Roboto;
+  color:white;
+  text-decoration: none;
+}
+.interieurFooter3
+{
+  margin-left:23px;
+  display: flex;
+  flex-direction: column;
+}
+.interieurFooter3 a
+{
+  font-family: Roboto;
+  color:white;
+  text-decoration: none;
+}
+.interieurFooter4 a
+{
+  font-family: Roboto;
+  color:white;
+  text-decoration: none;
+}
+.interieurFooter5 a
+{
+  font-family: Roboto;
+  color:white;
+  text-decoration: none;
+}
+.fa-hands-helping{
+  position:absolute;
+  margin-left:-23px;
+  font-size: 12px;
+  margin-top:3px;
+  color:white;
+}
+.fa-utensils{
+  position:absolute;
+  margin-left:-20px;
+  color:white;
+  font-size: 12px;
+  margin-top:3px;
+}

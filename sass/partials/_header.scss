@@ -1,0 +1,19 @@
+.contenairhead {
+    
+    text-align: center;
+    background: white;
+    .fa-arrow-left{
+        color:Black;
+        margin-top:20px;
+        margin-left: 50px;
+        display:flex;
+        flex-direction: row;
+        position:absolute;
+    }
+}
+.localisation{
+    background: #EAEAEA;
+    text-align: center;
+    padding-top:12.5px;
+    padding-bottom: 12.5px;
+}
