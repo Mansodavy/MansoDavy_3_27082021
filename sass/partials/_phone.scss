@@ -1,0 +1,78 @@
+@media (min-width: 500px) and (max-width: 892px) {
+    .restaurant_blockrestaurants {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .restaurantimage1{
+        width: 100%;
+        height: 200px;
+      }
+      .restaurantimage2{
+        width: 100%;
+        height: 200px;
+      }
+      .restaurantimage3{
+        width: 100%;
+        height: 200px;
+      }
+      .restaurantimage4{
+        width: 100%;
+        height: 200px;
+      }
+      .restaurant_blockrestau {
+        display: flex;
+        width: 38%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border-radius: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        margin: 1px 25px 23px 15px;
+            margin-left: 15px;
+        margin-left: 15px;
+        box-shadow: 0 5px 16px #0000002e;
+    }
+}
+@media (min-width: 0px) and (max-width: 499px) {
+        .restaurant_blockrestaurants {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .restaurantimage1{
+            width: 100%;
+            height: 200px;
+          }
+          .restaurantimage2{
+            width: 100%;
+            height: 200px;
+          }
+          .restaurantimage3{
+            width: 100%;
+            height: 200px;
+          }
+          .restaurantimage4{
+            width: 100%;
+            height: 200px;
+          }
+          .restaurant_blockrestau {
+            display: flex;
+            width: 60%;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border-radius: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            margin: 1px 25px 23px 15px;
+                margin-left: 15px;
+            margin-left: 15px;
+            box-shadow: 0 5px 16px #0000002e;
+        }
+}
