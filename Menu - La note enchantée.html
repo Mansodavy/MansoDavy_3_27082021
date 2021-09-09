@@ -12,6 +12,7 @@
     <!--CSS-FontAwesome-->
     <script src="https://kit.fontawesome.com/c8cd1a3a36.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/logoohmygfood.svg" />
+    <link rel="stylesheet" href="francaise.css">
 </head>
 <body>
     <div id="bloc_de_header">
@@ -19,127 +20,196 @@
         <header>
             <div class="contenairhead">
                 <div id="headtitle">
+                    <a href="Accueil.html">
                     <i class="fas fa-arrow-left"></i>
-                    <h2>ohmyfood</h2>
+                    </a>
+                    <h1>ohmyfood</h1>
                 </div>
             </div>
         </header>
-    </div>
-    <div class="imagerestaurant">
-        <img class="restaurantimage" src="Images/lanoteenchantee.jpg" alt="lanoteenchantee">
+        <img class="restaurantimage" src="Images/alafrancaise.jpg" alt="alafrancaise">
     </div>
     <main class="Cartefrancaiseettitre">
         <section id="Cartefrancaiseblock">
-            <h2 class="titresdesection">La note enchantée</h2>
-            <p class="entrees">ENTREES</p>
-            <article class = "Cartefrancaise">
-                <div class = "entree">
-                    <a href="#">
-                    <h3>Ravioles de foie gras</h3>
-                    <p>Accompagnés de leur crème à la truffe</p>
-                    <p><strong>25€</strong></p>
-                    </a>
+        <div class="headerblockfrancais">
+            <h2  class="titresdesection">La note enchantée</h2>
+        
+            <div class="coeurconteneur">
+                <input type="checkbox">
+                <i class="far fa-heart">
+                  
+                </i>
+                <i class="fas fa-heart">
+                  
+                </i>
+              </div>
+            </div>
+            <article class="Cartefrancaise" style="display: flex;flex-wrap: wrap;">
+    <div class="bigentree">
+        <h4 class="entrees">Entrées</h4>
+        <a href="#">
+            <div class="entree">
+                <div>
+                    <h3>Ravioles de foie gras </h3>
+                    <p>
+                        Accompagnés de leur crème à la truffe
+                    </p>
                 </div>
-                <div class = "entree">
-                    <a href="#">
+                <div class="entreeprix">
+                    <h4>
+                        <strong>25€</strong>
+                    </h4>
+                </div>
+                </div>
+        </a>
+        <a href="#">
+            <div class="entree">
+                <div>
                     <h3>Caviar osciètre</h3>
-                    <p>Sur blini à la farine de blé noir</p>
-                    <p><strong>35€</strong></p> 
-                    </a>
+                    <p>
+                        Sur blini à la farine de blé noir
+                    </p>
                 </div>
-                <div class = "entree">
-                    <a href="#">
-                    <h3>Homard et espuma de potiron </h3>
-                    <p>Mariné aux zestes d'orange</p>
-                    <p><strong>20€</strong></p> 
-                    </a>
+                <div class="entreeprix">
+                    <h4>
+                        <strong>35€</strong>
+                    </h4>
+                    </div>
+                    
+                </div></a>
+        <a href="#">
+            <div class="entree">
+                <div>
+                    <h3>Homard et espuma de potiron</h3>
+                    <p>
+                        Mariné aux zestes d'orange
+                    </p>
                 </div>
-                <div class = "entree">
-                    <a href="#">
+                    <div class="entreeprix">
+                        <h4>
+                            <strong>20€</strong>
+                        </h4>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="entree">
+                    <div>
                         <h3>Foie gras de canard cuit entier</h3>
-                        <p>Confiture de figue et pain toasté</p>
-                        <p><strong>35€</strong></p>
-                    </a>
-                </div>
-
-                <p class="plats">PLATS</p>
-
-                <div class = "plat">
-                    <a href="#">
+                        <p>
+                            Confiture de figue et pain toasté
+                        </p>
+                    </div>
+                        <div class="entreeprix">
+                            <h4>
+                                <strong>35€</strong>
+                            </h4>
+                        </div>
+                    </div>
+                </a>
+        </div>
+    <div class="bigplats">
+                <h4 class="plats">Plats</h4>              
+                <a href="#">
+                    <div class="plat">
+                        <div>
                         <h3>Noix de coquilles Saint-Jacques</h3>
                         <p>Sur lit de purée de céleri-rave</p>
-                        <p><strong>40€</strong></p>
-                    </a>
-                </div>
-                <div class = "plat">
-                    <a href="#">
+                        </div>
+                        <div class="platsprix">
+                            <h4><strong>40€</strong></h4>
+                        </div>
+                </div></a>  
+                <a href="#">
+                    <div class="plat">
+                        <div>
                         <h3>Langoustine poêlée</h3>
                         <p>Purée de patate douce</p>
-                        <p><strong>35€</strong></p>
-                    </a>
-                </div>
-                <div class = "plat">
-                    <a href="#">
-                        <h3>Mijoté de queue de boeuf</h3>
+                        </div>
+                        <div class="platsprix">
+                            <h4><strong>35€</strong></h4>
+                        </div>
+                </div></a>
+                <a href="#">
+                    <div class="plat">
+                        <div>
+                        <h3>
+                            Mijoté de queue de boeuf</h3>
                         <p>Et riz sauvage aux zestes de citron</p>
-                        <p><strong>44€</strong></p>
-                    </a>
-                </div>
+                        </div>
+                        <div class="platsprix">
+                            <h4><strong>44€</strong></h4>
+                        </div>
+                </div></a>
 
-                <p class="Desserts">DESSERTS</p>
 
-                <div class = "dessert">
-                    <a href="#">
+    </div>
+    <div class="bigdesserts">
+                <h4 class="Desserts">Desserts</h4>
+
+                <a href="#">
+                    <div class="dessert">
+                        <div>
                         <h3>Macaron noisette et chocolat</h3>
                         <p>Glace au caramel brun et sel de Guérande</p>
-                        <p><strong>18€</strong></p>
-                    </a>
-                </div>
-                <div class = "dessert">
-                    <a href="#">
+                        </div>
+                        <div class="dessertprix">
+                            <h4><strong>18€</strong></h4>
+                        </div>
+                </div></a>
+                <a href="#">
+                    <div class="dessert">
+                        <div>
                         <h3>Baba au rhum revisité</h3>
                         <p>Avec son coulis de citron</p>
-                        <p><strong>22€</strong></p>
-                    </a>
-                </div>
-                <div class = "dessert">
-                    <a href="#">
+                        </div>
+                        <div class="dessertprix">
+                            <h4><strong>22€</strong></h4>
+                        </div>
+                </div></a>
+                <a href="#">   
+                    <div class="dessert">
+                        <div> 
                         <h3>Tarte au citron meringuée</h3>
                         <p>Déstructurée</p>
-                        <p><strong>23€</strong></p>
-                    </a>
-                </div>
-                <!--Afficher Plus-->
-                <button class="Commander"
-                        type="button">
-                    Commander
-                </button>
-                <!--Afficher Plus Fin-->
+                        </div>   
+                        <div class="dessertprix">
+                            <h4><strong>23€</strong></h4>
+                        </div>
+                </div></a>
+    </div>
             </article>
+            <div class="boutonclass">
+            <button class="btn rounded purple btngrand" type="button">
+                Commander
+            </button>
+            </div>
         </section>
     </main>
 
-<footer>
-    <div class="Footer">
-        <div class="interieurFooter">
-            <a href="#" class="LinesFooter">ohmyfood</a>
-        </div>
-        <div class="interieurFooter2">
-            <i class="fas fa-utensils" aria-hidden="true"></i>
-            <a href="#" class="LinesFooter">Proposer on restaurant</a>
-        </div>
-        <div class="interieurFooter3">
-            <i class="fas fa-hands-helping" aria-hidden="true"></i>
-            <a href="#" class="LinesFooter">Devenir partenaire</a>
-        </div>
-        <div class="interieurFooter4">
-            <a href="#" class="LinesFooter">Mentions légales</a>
-        </div>
-        <div class="interieurFoote5">
-            <a href="#" class="LinesFooter">Contact</a>
-        </div>
-    </div>
-</footer>
+    <footer>
+        <div class="Footer">
+            <div class="footer2">
+            <div class="interieurFooter">
+                <a href="#" class="LinesFooter">ohmyfood</a>
+            </div>
+            <div class="interieurFooter2">
+                <i class="fas fa-utensils" aria-hidden="true"></i>
+                <a href="#" class="LinesFooter">Proposer on restaurant</a>
+            </div>
+            <div class="interieurFooter3">
+                <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                <a href="#" class="LinesFooter">Devenir partenaire</a>
+            </div>
+            <div class="interieurFooter4">
+                <a href="#" class="LinesFooter">Mentions légales</a>
+            </div>
+            <div class="interieurFooter5">
+                <a href="mailto:test@test.fr" class="LinesFooter">Contact</a>
+            </div>
+            </div>
+        </div>            
+    </footer>
 </body>
 
 </html>
