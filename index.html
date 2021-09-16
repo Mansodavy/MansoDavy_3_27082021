@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr"> 
+    <div class="loadcontent">
+        <div class="loading"></div>
+    </div>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +17,7 @@
     <link rel="icon" href="images/logoohmygfood.svg" />
     <link rel="stylesheet" href="accueil.css">
 </head>
+
 <body>
 
     <div id="bloc_de_header">
@@ -27,7 +31,12 @@
             </div>
         </header>
         <div class="localisation">
-        <i class="fas fa-map-marker-alt" aria-hidden="true"> Paris, Belleville</i>
+            
+            <form method="post" action="Recherche.php">
+                <i class="fas fa-map-marker-alt" aria-hidden="true">
+                    <input class="inputs" type="text" name="localisation" id="city" placeholder="Paris, Belleville">
+                </i>
+            </form>
         </div>
         <div class="Reservationmenu">
             <h1>Réservez le menu qui vous convient</h1>

@@ -23,6 +23,7 @@ body{
 }
 @media (max-width: 2000px) {
 @import "../sass/partials/_header.scss";
+@import "../sass/partials/_spinner.scss";
 @import "../sass/partials/_buttons.scss";
 @import "../sass/partials/_sections.scss";
 @import "../sass/partials/_footer.scss";
