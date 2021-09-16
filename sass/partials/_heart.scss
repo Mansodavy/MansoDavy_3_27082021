@@ -1,0 +1,53 @@
+.coeurconteneur{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    z-index: 3;
+  }
+.fas{
+    opacity: 0;
+    transition-duration: 0.5s;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .fa-heart{
+    font-size: 30px;
+  }
+  .coeurconteneur>i{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  
+  input:checked ~ .far {
+    transition-duration: 0.5s;
+    opacity: 0;
+  }
+  
+  input:checked ~ .fas{
+    transition-duration: 0.5s;
+    opacity: 1;
+  }
+  input:hover ~ .far {
+    transition-duration: 0.5s;
+    opacity: 0;
+  }
+  input:hover ~ .fas{
+    transition-duration: 0.5s;
+    opacity: 1;
+  }

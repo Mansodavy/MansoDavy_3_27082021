@@ -42,6 +42,64 @@ h2 {
   color: black;
 }
 
+.coeurconteneur {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  z-index: 3;
+}
+
+.fas {
+  opacity: 0;
+  transition-duration: 0.5s;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-heart {
+  font-size: 30px;
+}
+
+.coeurconteneur > i {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+input:checked ~ .far {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
+
+input:checked ~ .fas {
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+
+input:hover ~ .far {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
+
+input:hover ~ .fas {
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+
 .btn {
   background: transparent;
   border: 1px solid transparent;
@@ -114,7 +172,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
+  position: inherit;
 }
 
 .containerfonction2 {
@@ -130,7 +188,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
+  position: inherit;
 }
 
 .containerfonction3 {
@@ -146,7 +204,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
+  position: inherit;
 }
 
 .fa-store {
@@ -332,6 +390,39 @@ h2 {
   margin-right: auto;
 }
 
+.bigentree h4 {
+  font-weight: 900;
+  font-size: 16px;
+  font-family: Roboto, Serif;
+}
+
+.bigdesserts h4 {
+  font-weight: 900;
+  font-size: 16px;
+  font-family: Roboto, Serif;
+}
+
+.bigplats h4 {
+  font-weight: 900;
+  font-size: 16px;
+  font-family: Roboto, Serif;
+}
+
+.plats {
+  border-bottom: 3px solid #99E2D0;
+  border-left-width: 15px;
+}
+
+.entrees {
+  border-bottom: 3px solid #99E2D0;
+  border-left-width: 15px;
+}
+
+.Desserts {
+  border-bottom: 3px solid #99E2D0;
+  border-left-width: 15px;
+}
+
 .bigplats {
   margin-left: auto;
   margin-right: auto;
@@ -357,65 +448,6 @@ h2 {
   position: relative;
   display: flex;
   justify-content: space-between;
-}
-
-.coeurconteneur {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  z-index: 3;
-}
-
-.fas {
-  opacity: 0;
-  transition-duration: 0.5s;
-  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-div > i {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-input {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  opacity: 0;
-  cursor: pointer;
-  z-index: 3;
-}
-
-.fa-heart {
-  font-size: 30px;
-}
-
-input:checked ~ .far {
-  transition-duration: 0.5s;
-  opacity: 0;
-}
-
-input:checked ~ .fas {
-  transition-duration: 0.5s;
-  opacity: 1;
-}
-
-input:hover ~ .far {
-  transition-duration: 0.5s;
-  opacity: 0;
-}
-
-input:hover ~ .fas {
-  transition-duration: 0.5s;
-  opacity: 1;
 }
 
 .entree > div > h3 {
@@ -484,6 +516,44 @@ input:hover ~ .fas {
 
 a:link {
   text-decoration: none;
+}
+
+.inputs {
+  font-family: "Raleway", "Sans serif";
+  display: flex;
+  padding: 0 1.5em;
+  height: 10%;
+  font-size: 15px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-bottom: hidden;
+  background: transparent;
+  flex-direction: row;
+}
+
+.fa-map-marker-alt {
+  display: flex;
+  text-align: center;
+}
+
+.heartopacity {
+  opacity: 0;
+}
+
+.fa-arrow-left {
+  opacity: 1;
+  -webkit-text-fill-color: black;
+}
+
+.fa-hands-helping {
+  opacity: 1;
+  -webkit-text-fill-color: white;
+}
+
+.fa-utensils {
+  opacity: 1;
+  -webkit-text-fill-color: white;
 }
 
 .Footer {
