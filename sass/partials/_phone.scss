@@ -36,6 +36,27 @@
         margin-left: 15px;
         box-shadow: 0 5px 16px #0000002e;
     }
+    .bigentree{
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      width: 95.5%;
+      padding: 0 1rem;
+      overflow: hidden;
+      max-width: 100%
+    }
+    .bigplats{
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      width: 95.5%;
+    }
+    .bigdesserts{
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      width: 95.5%;
+    }
 }
 @media (min-width: 0px) and (max-width: 499px) {
         .restaurant_blockrestaurants {
@@ -43,6 +64,9 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+        }
+        .postquest{
+          text-align: center;
         }
         .restaurantimage1{
             width: 100%;
@@ -62,7 +86,7 @@
           }
           .restaurant_blockrestau {
             display: flex;
-            width: 60%;
+            width: 80%;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
@@ -74,5 +98,26 @@
                 margin-left: 15px;
             margin-left: 15px;
             box-shadow: 0 5px 16px #0000002e;
+        }
+        .bigentree{
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+          width: 95.5%;
+          padding: 0 1rem;
+          overflow: hidden;
+          max-width: 100%
+        }
+        .bigplats{
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+          width: 95.5%;
+        }
+        .bigdesserts{
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+          width: 95.5%;
         }
 }
