@@ -188,6 +188,8 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom:40px;
+  max-width: 100%;
+  margin-left: 10px;
 }
 .entree{
   display: flex;
@@ -198,7 +200,6 @@
   transition-duration: 0.5s;
   margin: 1rem 0;
   max-width: 100%;
-  width: 100%;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 
 }
@@ -211,7 +212,6 @@
   transition-duration: 0.5s;
   margin: 1rem 0;
   max-width: 100%;
-  width: 100%;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
 .dessert{
@@ -223,7 +223,6 @@
   transition-duration: 0.5s;
   margin: 1rem 0;
   max-width: 100%;
-  width: 100%;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
 .restaurantimage{ 
@@ -231,9 +230,28 @@
   width: 100%;
   object-fit: cover;
 }
+
+@keyframes animationscale {
+  0%{
+      opacity: 0;
+      transform: scale(0);
+  }
+  
+  50%{
+      opacity: 1;
+      transform: scale(105%);
+  }
+
+  100%{
+      transform: scale(100%);
+  }
+}
 .bigentree{
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  padding: 0 1rem;
+  overflow: hidden;
 }
 .bigentree h4{
   font-weight: 900;
@@ -265,14 +283,26 @@
 .bigplats{
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 .bigdesserts{
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+}
+.animation1{
+  animation: animationscale 1.3s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0ms 1;
+}
+.animation2{
+  animation: animationscale 1.4s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0.2s 1;
+}
+.animation3{
+  animation: animationscale 1.5s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0.4s 1;
 }
 .titresdesection {
   font-family: Shrikhand,"cursive";
   padding-left: 25px;
+  width: 500px;
 }
 .boutonclass{
   display: flex;
@@ -289,7 +319,6 @@
 .entree > div > h3 {
   margin: 0 !important;
   max-width: 100%;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: Roboto, sans-serif;
@@ -302,12 +331,11 @@
   text-decoration: none;
   font-family: Roboto, sans-serif;
   padding-top: 5px;
-  color:#BBBBBB;
+  color:#2F2C2C;
 }
 .plat > div > h3 {
   margin: 0 !important;
   max-width: 100%;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: Roboto, sans-serif;
@@ -320,12 +348,11 @@
   text-decoration: none;
   font-family: Roboto, sans-serif;
   padding-top: 5px;
-  color:#BBBBBB;
+  color:#2F2C2C;
 }
   .dessert > div > h3 {
     margin: 0 !important;
     max-width: 100%;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-family: Roboto, sans-serif;
@@ -338,7 +365,7 @@
     text-decoration: none;
     font-family: Roboto, sans-serif;
     padding-top: 5px;
-    color:#BBBBBB;
+    color:#2F2C2C;
   }
 .entreeprix h4 {
   text-decoration: black;
@@ -358,10 +385,12 @@ a:link{
   border-bottom: hidden;
   background: transparent;
   flex-direction: row; 
+  max-width: 120px;
 }
 .fa-map-marker-alt{
-  display:flex;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 .heartopacity{
   opacity: 0;
@@ -377,4 +406,71 @@ a:link{
 .fa-utensils{
   opacity: 1;
   -webkit-text-fill-color: white;
+}
+.choisir{
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+  opacity:0;
+}
+.dessert:hover .choisir{
+  margin-right: 0rem;
+  opacity: 1;
+  width: 6rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dessert:hover .choisir .div{
+  transform: rotate(0);
+}
+.dessert:hover{
+  padding-right: 0;
+  transition-duration: 1s;
+}
+.plat:hover .choisir{
+  margin-right: 0rem;
+  opacity: 1;
+  width: 6rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.plat:hover .choisir .div{
+  transform: rotate(0);
+}
+.plat:hover{
+  padding-right: 0;
+  transition-duration: 1s;
+}
+.entree:hover .choisir{
+  margin-right: 0rem;
+  opacity: 1;
+  width: 6rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.entree:hover .choisir .div{
+  transform: rotate(0);
+}
+.entree:hover{
+  padding-right: 0;
+  transition-duration: 1s;
+}
+.choisir div .fa-check{
+  color: #99e2d0;
+  opacity:1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:#99e2d0;
+}
+.choisir div{
+  height: 1.4rem;
+  width: 1.4rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
 }
