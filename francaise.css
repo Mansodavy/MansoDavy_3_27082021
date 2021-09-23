@@ -18,6 +18,10 @@ h2 {
   color: #000000;
 }
 
+/* {
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+    }*/
 .contenairhead {
   text-align: center;
   background: white;
@@ -70,6 +74,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 15px;
 }
 
 .inputheart {
@@ -341,10 +346,6 @@ h2 {
   border-top-right-radius: 30px;
 }
 
-#Cartefrancaiseblock {
-  margin: 1px 25px 1px 15px;
-}
-
 .Cartefrancaise {
   display: flex;
   flex-wrap: wrap;
@@ -361,7 +362,7 @@ h2 {
   cursor: pointer;
   transition-duration: 0.5s;
   margin: 1rem 0;
-  max-width: 100%;
+  max-width: 280px;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
 
@@ -373,7 +374,7 @@ h2 {
   cursor: pointer;
   transition-duration: 0.5s;
   margin: 1rem 0;
-  max-width: 100%;
+  max-width: 300px;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
 
@@ -385,7 +386,7 @@ h2 {
   cursor: pointer;
   transition-duration: 0.5s;
   margin: 1rem 0;
-  max-width: 100%;
+  max-width: 280px;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
 
@@ -437,27 +438,36 @@ h2 {
 .plats {
   border-bottom: 3px solid #99E2D0;
   border-left-width: 15px;
+  max-width: 40px;
 }
 
 .entrees {
   border-bottom: 3px solid #99E2D0;
   border-left-width: 15px;
+  max-width: 40px;
 }
 
 .Desserts {
   border-bottom: 3px solid #99E2D0;
   border-left-width: 15px;
+  max-width: 40px;
 }
 
 .bigplats {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  padding: 0 1rem;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .bigdesserts {
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  padding: 0 1rem;
+  overflow: hidden;
   max-width: 100%;
 }
 
@@ -476,7 +486,7 @@ h2 {
 .titresdesection {
   font-family: Shrikhand, "cursive";
   padding-left: 25px;
-  width: 500px;
+  width: 1000px;
 }
 
 .boutonclass {
@@ -497,6 +507,7 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: Roboto, sans-serif;
+  font-size: 16px;
 }
 
 .entree > div > p {
@@ -508,6 +519,8 @@ h2 {
   font-family: Roboto, sans-serif;
   padding-top: 5px;
   color: #2F2C2C;
+  width: 240px;
+  font-size: 13px;
 }
 
 .plat > div > h3 {
@@ -516,6 +529,7 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: Roboto, sans-serif;
+  font-size: 16px;
 }
 
 .plat > div > p {
@@ -527,6 +541,8 @@ h2 {
   font-family: Roboto, sans-serif;
   padding-top: 5px;
   color: #2F2C2C;
+  width: 540px;
+  font-size: 13px;
 }
 
 .dessert > div > h3 {
@@ -535,6 +551,7 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: Roboto, sans-serif;
+  font-size: 16px;
 }
 
 .dessert > div > p {
@@ -546,6 +563,8 @@ h2 {
   font-family: Roboto, sans-serif;
   padding-top: 5px;
   color: #2F2C2C;
+  width: 240px;
+  font-size: 13px;
 }
 
 .entreeprix h4 {
@@ -598,7 +617,7 @@ a:link {
 
 .choisir {
   background-color: #99e2d0;
-  margin: -1rem -5rem -1rem 1rem;
+  margin: -1rem -1rem -1rem 1rem;
   width: 4rem;
   display: flex;
   align-items: center;
@@ -675,6 +694,17 @@ a:link {
   border-radius: 100px;
 }
 
+.choisir:hover i {
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .Footer {
   background-color: #353535;
   display: flex;
@@ -747,6 +777,7 @@ a {
   margin-top: 3px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: white;
+  opacity: 1;
 }
 
 .fa-utensils {
@@ -757,9 +788,10 @@ a {
   margin-top: 3px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: white;
+  opacity: 1;
 }
 
-@media (min-width: 500px) and (max-width: 892px) {
+@media (min-width: 411px) and (max-width: 1163px) {
   .restaurant_blockrestaurants {
     display: flex;
     flex-wrap: wrap;
@@ -826,8 +858,51 @@ a {
     max-width: 100%;
     width: 95.5%;
   }
+
+  .ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150%;
+  }
+
+  .plat {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin: 1rem 0;
+    max-width: 100%;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  .entree {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin: 1rem 0;
+    max-width: 100%;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  .dessert {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin: 1rem 0;
+    max-width: 100%;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  }
 }
-@media (min-width: 0px) and (max-width: 499px) {
+@media (min-width: 0px) and (max-width: 410px) {
   .restaurant_blockrestaurants {
     display: flex;
     flex-wrap: wrap;
@@ -890,6 +965,9 @@ a {
     margin-right: auto;
     max-width: 100%;
     width: 95.5%;
+    padding: 0 1rem;
+    overflow: hidden;
+    max-width: 100%;
   }
 
   .bigdesserts {
@@ -897,6 +975,93 @@ a {
     margin-right: auto;
     max-width: 100%;
     width: 95.5%;
+    padding: 0 1rem;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .plat > div > h3 {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+  }
+
+  .plat > div > p {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    padding-top: 5px;
+    color: #2F2C2C;
+    width: 240px;
+    font-size: 11px;
+  }
+
+  .bigplats h4 {
+    font-weight: 900;
+    font-size: 14px;
+    font-family: Roboto, Serif;
+  }
+
+  .entree > div > h3 {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+  }
+
+  .entree > div > p {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    padding-top: 5px;
+    color: #2F2C2C;
+    width: 240px;
+    font-size: 11px;
+  }
+
+  .bigentree h4 {
+    font-weight: 900;
+    font-size: 14px;
+    font-family: Roboto, Serif;
+  }
+
+  .dessert > div > h3 {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+  }
+
+  .dessert > div > p {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    padding-top: 5px;
+    color: #2F2C2C;
+    width: 240px;
+    font-size: 11px;
+  }
+
+  .bigdessert h4 {
+    font-weight: 900;
+    font-size: 14px;
+    font-family: Roboto, Serif;
   }
 }
 
