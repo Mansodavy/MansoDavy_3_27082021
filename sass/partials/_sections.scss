@@ -237,11 +237,11 @@
   
   50%{
       opacity: 1;
-      transform: scale(105%);
+      transform: scale(1);
   }
 
   100%{
-      transform: scale(100%);
+      transform: scale(1);
   }
 }
 .bigentree{
@@ -506,5 +506,5 @@ a:link{
   border-radius: .125rem;
   top: 1rem;
   right: .75rem;
-  position:absolute;
+  position:absolute,
 }
