@@ -272,6 +272,7 @@ h2 {
 
 .restaurant {
   text-decoration: none;
+  position: relative;
 }
 
 .restaurantTitre {
@@ -403,10 +404,10 @@ h2 {
   }
   50% {
     opacity: 1;
-    transform: scale(105%);
+    transform: scale(1);
   }
   100% {
-    transform: scale(100%);
+    transform: scale(1);
   }
 }
 .bigentree {
@@ -703,6 +704,16 @@ a:link {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.nouveaux {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  top: 1rem;
+  right: 0.75rem;
+  position: absolute;
 }
 
 .Footer {
