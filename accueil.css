@@ -839,7 +839,7 @@ body {
     opacity: 1;
   }
 }
-@media (max-width: 2000px) and (min-width: 411px) and (max-width: 1163px) {
+@media (max-width: 2000px) and (min-width: 468px) and (max-width: 1163px) {
   .restaurant_blockrestaurants {
     display: flex;
     flex-wrap: wrap;
@@ -950,7 +950,24 @@ body {
     box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
   }
 }
-@media (max-width: 2000px) and (min-width: 0px) and (max-width: 410px) {
+@media (max-width: 2000px) and (min-width: 845px) and (max-width: 1163px) {
+  .restaurant_blockrestau {
+    display: flex;
+    width: 27%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 1px 25px 23px 15px;
+    margin-left: 15px;
+    margin-left: 15px;
+    box-shadow: 0 5px 16px #0000002e;
+  }
+}
+@media (max-width: 2000px) and (min-width: 0px) and (max-width: 467px) {
   .restaurant_blockrestaurants {
     display: flex;
     flex-wrap: wrap;
@@ -984,7 +1001,7 @@ body {
 
   .restaurant_blockrestau {
     display: flex;
-    width: 80%;
+    width: 70%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
