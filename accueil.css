@@ -662,7 +662,17 @@ body {
     border-radius: 100px;
   }
 
-  .choisir:hover i {
+  .entree:hover .choisir i {
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+  }
+
+  .plat:hover .choisir i {
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+  }
+
+  .dessert:hover .choisir i {
     transform: rotate(360deg);
     transition-duration: 0.5s;
   }
