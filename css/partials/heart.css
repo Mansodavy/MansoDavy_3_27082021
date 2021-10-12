@@ -1,0 +1,77 @@
+.coeurconteneur{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    z-index: 3;
+  }
+.fas{
+    opacity: 0;
+    transition-duration: 1s;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .fa-heart{
+    font-size: 30px;
+  }
+  .coeurconteneur>i{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+
+  .inputheart{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  
+  .inputheart:checked ~ .far {
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  
+  .inputheart:checked ~ .fas{
+    transition-duration: 1s;
+    opacity: 1;
+  }
+  .inputheart:hover ~ .far {
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .inputheart:hover ~ .fas{
+    transition-duration: 1s;
+    opacity: 1;
+  }
+
+  .conteneurcoeur2{
+    margin-top: -17%;
+    margin-left: 16%;
+  }
+
+  .icon{
+    opacity: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:black;
+  }
+  .iconfonctionnement{
+    opacity:1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#767676;
+  }
+
+  .iconfonctionnements{
+    opacity:1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#9356DC;
+  }
