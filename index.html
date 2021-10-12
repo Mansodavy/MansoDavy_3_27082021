@@ -1,185 +1,187 @@
 <!DOCTYPE html>
-<html lang="fr"> 
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="author" content=""/>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="" />
     <!--Tittle Description Debut-->
     <title>OhMyFood</title>
-    
+
     <meta name="description" content="OhMyFood - La palette du goût " />
     <!--Tittle Description Fin-->
     <!--CSS-FontAwesomes-->
-    <script src="https://kit.fontawesome.com/c8cd1a3a36.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="images/logoohmygfood.svg"/>
-    <link rel="stylesheet" href="accueil.css"/>
+    <script
+      src="https://kit.fontawesome.com/c8cd1a3a36.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="images/logoohmygfood.svg" />
+    <link rel="stylesheet" href="css/accueil.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="loadcontent">
-        <div class="loading"></div>
+      <div class="loading"></div>
     </div>
     <div id="bloc_de_header">
-        
-        <!--Header Haut de page-->
-        <header>
-            <div class="contenairhead">
-                <div id="headtitle">
-                    <h1>ohmyfood</h1>
-                </div>
+      <!--Header Haut de page-->
+      <header>
+        <div class="contenairhead">
+          <div id="headtitle">
+            <h1>ohmyfood</h1>
+          </div>
+        </div>
+      </header>
+      <div class="localisation">
+        <form method="post" class="postquest" action="Recherche.php">
+          <i class="icon fas fa-map-marker-alt" aria-hidden="true">
+            <input
+              class="inputs"
+              type="text"
+              name="localisation"
+              id="city"
+              placeholder="Paris, Belleville"
+            />
+          </i>
+        </form>
+      </div>
+      <div class="Reservationmenu">
+        <h1>Réservez le menu qui vous convient</h1>
+        <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+        <button class="btn rounded purple" type="button">
+          Explorer nos restaurants
+        </button>
+      </div>
+      <div class="Fonctionnementcontainer">
+        <h2>Fonctionnement</h2>
+        <div class="contfonct">
+          <div class="containerfonction1">
+            <div class="Fonctionnementcontainer_numero">1</div>
+            <i
+              class="iconfonctionnement fas fa-mobile-alt"
+              aria-hidden="true"
+            ></i>
+            <div class="restaurandescription">
+              <p>Choissisez un restaurant</p>
             </div>
-        </header>
-        <div class="localisation">
-            
-            <form method="post" class="postquest" action="Recherche.php">
-                <i class="icon fas fa-map-marker-alt" aria-hidden="true">
-                    <input class="inputs" type="text" name="localisation" id="city" placeholder="Paris, Belleville">
-                </i>
-            </form>
+          </div>
+          <div class="containerfonction2">
+            <div class="Fonctionnementcontainer_numero">2</div>
+            <i class="iconfonctionnement fas fa-list-ul" aria-hidden="true"></i>
+            <div class="restaurandescription">
+              <p>Composez votre menu</p>
+            </div>
+          </div>
+          <div class="containerfonction3">
+            <div class="Fonctionnementcontainer_numero">3</div>
+            <i class="iconfonctionnements fas fa-store" aria-hidden="true"></i>
+            <div class="restaurandescription">
+              <p>Dégustez au restaurant</p>
+            </div>
+          </div>
         </div>
-        <div class="Reservationmenu">
-            <h1>Réservez le menu qui vous convient</h1>
-            <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-            <button class="btn rounded purple"
-            type="button">
-            Explorer nos restaurants
-            </button>
-        </div>
-        <div class="Fonctionnementcontainer">
-            <h2>Fonctionnement</h2>
-                <div class="contfonct">
-                    <div class=containerfonction1>
-                        <div class="Fonctionnementcontainer_numero">1</div>
-                        <i class="iconfonctionnement fas fa-mobile-alt" aria-hidden="true"></i>
-                        <div class="restaurandescription">
-                        <p>
-                            Choissisez un restaurant
-                        </p>
-                        </div>
-                    </div>
-                    <div class=containerfonction2> 
-                        <div class="Fonctionnementcontainer_numero">2</div>
-                        <i class="iconfonctionnement fas fa-list-ul" aria-hidden="true"></i>
-                        <div class="restaurandescription">
-                        <p>
-                            Composez votre menu
-                        </p>
-                        </div>
-                    </div>
-                    <div class=containerfonction3>   
-                        <div class="Fonctionnementcontainer_numero">3</div>
-                        <i class="iconfonctionnement fas fa-store" aria-hidden="true"></i>
-                        <div class="restaurandescription">
-                        <p>
-                        Dégustez au restaurant
-                        </p>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
+      </div>
     </div>
     <main class="rest">
-        
-        <section id="Sectionrestaurant">
-                <h2 class="restaurantTitre">Restaurants</h2>
-                
-            <div class="restaurant_blockrestaurants">
-                <div class="restaurant_blockrestau">
-                    
-                    <a class="restaurant"  href="menulapalettedugout.html">
-                        <img class="restaurantimage restaurantimage1" src="images/Lapalettedugout.jpg" alt="La pallete du goût">
-                        <span class="nouveaux">Nouveau</span>
-                        <h3 class="restauranttitreblockrestau">La pallete du goût</h3>
-                        
-                        <p class="testp">Ménilmontant</p>
-                    </a>
-                    <div class="coeurconteneur conteneurcoeur2">
-                        <input class="inputheart heartopacity" type="checkbox">
-                        <i class="far fa-heart">
-                          
-                        </i>
-                        <i class="fas fa-heart">
-                          
-                        </i>
-                    </div>
-                </div>
-                <div class="restaurant_blockrestau">
-                    <a class="restaurant"  href="menulanoteenchantee.html">
-                        <img class="restaurantimage restaurantimage2" src="images/lanoteenchanteereformat.jpg" alt="La note enchantée">
-                        <span class="nouveaux">Nouveau</span>
-                        <h3 class="restauranttitreblockrestau">La note enchantée</h3>
-                        <p>Charonne</p>
-                    </a>
-                    <div class="coeurconteneur conteneurcoeur2">
-                        <input class="inputheart heartopacity" type="checkbox">
-                        <i class="far fa-heart">
-                          
-                        </i>
-                        <i class="fas fa-heart">
-                          
-                        </i>
-                    </div>
-                </div>
-                <div class="restaurant_blockrestau">
-                    <a class="restaurant"  href="menualafrancaise.html">
-                        <img class="restaurantimage restaurantimage3" src="images/alafrancaisereformat.jpg" alt="À la française">
-                        <h3 class="restauranttitreblockrestau">À la française</h3>
-                        <p>Citée Rouge</p>
-                    </a>
-                    <div class="coeurconteneur conteneurcoeur2">
-                        <input class="inputheart heartopacity" type="checkbox">
-                        <i class="far fa-heart">
-                          
-                        </i>
-                        <i class="fas fa-heart">
-                          
-                        </i>
-                    </div>
-                </div>
-                <div class="restaurant_blockrestau">
-                    <a class="restaurant"  href="menuledelicedessens.html">
-                        <img class="restaurantimage restaurantimage4" src="images/ledelicedessensreformat.jpg" alt="Le délice des sens">
-                        <h3 class="restauranttitreblockrestau">Le délice des sens</h3>
-                        <p>Folie-Méricourt</p>
-                    </a>
-                    <div class="coeurconteneur conteneurcoeur2">
-                        <input class="inputheart heartopacity" type="checkbox">
-                        <i class="far fa-heart">
-                          
-                        </i>
-                        <i class="fas fa-heart">
-                          
-                        </i>
-                    </div>
-                </div>
-            </div>       
-        </section>
+      <section id="Sectionrestaurant">
+        <h2 class="restaurantTitre">Restaurants</h2>
+
+        <div class="restaurant_blockrestaurants">
+          <div class="restaurant_blockrestau">
+            <a class="restaurant" href="menulapalettedugout.html">
+              <img
+                class="restaurantimage restaurantimage1"
+                src="images/Lapalettedugout.jpg"
+                alt="La pallete du goût"
+              />
+              <span class="nouveaux">Nouveau</span>
+              <h3 class="restauranttitreblockrestau">La pallete du goût</h3>
+
+              <p class="testp">Ménilmontant</p>
+            </a>
+            <div class="coeurconteneur conteneurcoeur2">
+              <input class="inputheart heartopacity" type="checkbox" />
+              <i class="far fa-heart"> </i>
+              <i class="fas fa-heart"> </i>
+            </div>
+          </div>
+          <div class="restaurant_blockrestau">
+            <a class="restaurant" href="menulanoteenchantee.html">
+              <img
+                class="restaurantimage restaurantimage2"
+                src="images/lanoteenchanteereformat.jpg"
+                alt="La note enchantée"
+              />
+              <span class="nouveaux">Nouveau</span>
+              <h3 class="restauranttitreblockrestau">La note enchantée</h3>
+              <p>Charonne</p>
+            </a>
+            <div class="coeurconteneur conteneurcoeur2">
+              <input class="inputheart heartopacity" type="checkbox" />
+              <i class="far fa-heart"> </i>
+              <i class="fas fa-heart"> </i>
+            </div>
+          </div>
+          <div class="restaurant_blockrestau">
+            <a class="restaurant" href="menualafrancaise.html">
+              <img
+                class="restaurantimage restaurantimage3"
+                src="images/alafrancaisereformat.jpg"
+                alt="À la française"
+              />
+              <h3 class="restauranttitreblockrestau">À la française</h3>
+              <p>Citée Rouge</p>
+            </a>
+            <div class="coeurconteneur conteneurcoeur2">
+              <input class="inputheart heartopacity" type="checkbox" />
+              <i class="far fa-heart"> </i>
+              <i class="fas fa-heart"> </i>
+            </div>
+          </div>
+          <div class="restaurant_blockrestau">
+            <a class="restaurant" href="menuledelicedessens.html">
+              <img
+                class="restaurantimage restaurantimage4"
+                src="images/ledelicedessensreformat.jpg"
+                alt="Le délice des sens"
+              />
+              <h3 class="restauranttitreblockrestau">Le délice des sens</h3>
+              <p>Folie-Méricourt</p>
+            </a>
+            <div class="coeurconteneur conteneurcoeur2">
+              <input class="inputheart heartopacity" type="checkbox" />
+              <i class="far fa-heart"> </i>
+              <i class="fas fa-heart"> </i>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-        <footer>
-            <div class="Footer">
-                <div class="footer2">
-                <div class="interieurFooter">
-                    <a href="#" class="LinesFooter">ohmyfood</a>
-                </div>
-                <div class="interieurFooter2">
-                    <i class="icon2 fas fa-utensils" aria-hidden="true"></i>
-                    <a href="#" class="LinesFooter">Proposer on restaurant</a>
-                </div>
-                <div class="interieurFooter3">
-                    <i class="icon2 fas fa-hands-helping" aria-hidden="true"></i>
-                    <a href="#" class="LinesFooter">Devenir partenaire</a>
-                </div>
-                <div class="interieurFooter4">
-                    <a href="#" class="LinesFooter">Mentions légales</a>
-                </div>
-                <div class="interieurFooter5">
-                    <a href="mailto:test@test.fr" class="LinesFooter">Contact</a>
-                </div>
-                </div>
-            </div>            
-        </footer>
-    </body>
+    <footer>
+      <div class="Footer">
+        <div class="footer2">
+          <div class="interieurFooter">
+            <a href="#" class="LinesFooter">ohmyfood</a>
+          </div>
+          <div class="interieurFooter2">
+            <i class="icon2 fas fa-utensils" aria-hidden="true"></i>
+            <a href="#" class="LinesFooter">Proposer on restaurant</a>
+          </div>
+          <div class="interieurFooter3">
+            <i class="icon2 fas fa-hands-helping" aria-hidden="true"></i>
+            <a href="#" class="LinesFooter">Devenir partenaire</a>
+          </div>
+          <div class="interieurFooter4">
+            <a href="#" class="LinesFooter">Mentions légales</a>
+          </div>
+          <div class="interieurFooter5">
+            <a href="mailto:test@test.fr" class="LinesFooter">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

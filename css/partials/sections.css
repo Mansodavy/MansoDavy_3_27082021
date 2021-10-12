@@ -1,0 +1,555 @@
+body{
+  margin: 0;
+  
+}
+
+.Reservationmenu{
+  text-align: center;
+  background-color: #F6F6F6;
+  padding-top: 5px;
+  padding-bottom:25px;
+}
+.Reservationmenu h1{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 25px auto 1px auto;
+  max-width: 200px;
+  text-align: center;
+}
+.Reservationmenu p{
+  color:#757575;
+  font-size: 17px;
+}
+.contfonct{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.containerfonction1{
+  padding: 7px;
+  box-sizing: border-box;
+  margin: 1px 25px 23px 25px;
+  box-shadow: 0 5px 16px #0000002e;
+  width: 322px;
+  height: 72px;
+  background: #f6f6f6;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: inherit;
+}
+.containerfonction2{
+  padding: 7px;
+  box-sizing: border-box;
+  margin: 1px 25px 23px 25px;
+  box-shadow: 0 5px 16px #0000002e;
+  width: 322px;
+  height: 72px;
+  background: #f6f6f6;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: inherit;
+}
+.containerfonction3{
+  padding: 7px;
+  box-sizing: border-box;
+  margin: 1px 25px 23px 25px;
+  box-shadow: 0 5px 16px #0000002e;
+  width: 322px;
+  height: 72px;
+  background: #F5EDFF;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: inherit;
+}
+.fa-store
+{
+  color: #9254DC;
+}
+.Fonctionnementcontainer h2{
+  margin-left:15%;
+}
+.Fonctionnementcontainer_numero
+{
+  background-color: #9356DC;
+  color: #FBF9FE;
+  border-radius: 60%;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: -20px;
+  text-align: center;
+}
+.iconfonctionnement{
+  margin-left: 25px;
+}
+.iconfonctionnements{
+  margin-left: 25px;
+}
+.restaurandescription{
+  margin-left:25px;
+}
+.rest
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F6F6F6;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.rest h3{
+  font-family: Roboto;
+  font-weight: bold; 
+  padding-left: 13px;
+}
+.rest p{
+  font-family: Roboto;
+  padding-left: 13px;
+}
+.restaurant{
+  text-decoration: none;
+  position: relative;
+}
+.restaurantTitre
+{
+  padding-left:20px;
+}
+.restaurant_blockrestaurants
+{
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant_blockrestau {
+  display: flex;
+  width: 20%;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 1px 15px 15px 15px;
+  margin-left: 15px;
+  box-shadow: 0 5px 16px #0000002e;
+}
+.restaurant_blockrestau img {
+  background-color: white;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  height: 160px;
+  width: 360px;
+}
+.restaurantimage1{
+  width: 100%;
+  height: 200px;
+}
+.restaurantimage2{
+  width: 100%;
+  height: 200px;
+}
+.restaurantimage3{
+  width: 100%;
+  height: 200px;
+}
+.restaurantimage4{
+  width: 100%;
+  height: 200px;
+}
+.blue
+{
+  color:#0065fc;
+}
+.grey
+{
+  color: #D9D9D9;
+}
+
+
+.Cartefrancaiseettitre{
+  position: sticky;
+  width: 100%;
+  background: white;
+  box-sizing: border-box;
+  margin-top: -26%;
+  box-shadow: 0 5px 16px #0000002e;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.Cartefrancaise{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom:40px;
+  max-width: 100%;
+}
+.entree{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  margin: 10px 5px 5px 5px;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1px 15px 1px 5px;
+  max-width: 100%;
+}
+
+.plat{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  margin: 10px 5px 5px 5px;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1px 15px 1px 5px;
+  max-width: 100%;
+}
+.dessert{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  margin: 10px 5px 5px 5px;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1px 15px 1px 5px;
+  max-width: 100%;
+}
+.restaurantimage{ 
+  max-height: 50rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+@keyframes animationscale {
+  0%{
+      opacity: 0;
+      transform: scale(0);
+  }
+  
+  50%{
+      opacity: 1;
+      transform: scale(1);
+  }
+
+  100%{
+      transform: scale(1);
+  }
+}
+.bigentree{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+.bigentree h4{
+  font-weight: 900;
+  font-size: 16px;
+  font-family: Roboto, Serif;
+}
+.bigdesserts h4{
+  font-weight: 900;
+  font-size: 16px;
+  font-family: Roboto, Serif;
+}
+.bigplats h4{
+  font-weight: 900;
+  font-size: 16px;
+  font-family: Roboto, Serif;
+}
+.plats{
+  border-bottom: 3px solid #99E2D0 ;
+  border-left-width: 15px;
+  max-width: 40px;
+}
+.entrees{
+  border-bottom: 3px solid #99E2D0 ;
+  border-left-width: 15px;
+  max-width: 40px;
+}
+.Desserts{
+  border-bottom: 3px solid #99E2D0 ;
+  border-left-width: 15px;
+  max-width: 40px;
+}
+.bigplats{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 0 1rem;
+overflow: hidden;
+max-width: 100%;
+}
+.bigdesserts{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 0 1rem;
+overflow: hidden;
+max-width: 100%;
+}
+.animation1{
+  animation: animationscale 1.3s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0ms 1;
+}
+.animation2{
+  animation: animationscale 1.4s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0.2s 1;
+}
+.animation3{
+  animation: animationscale 1.5s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0.4s 1;
+}
+.titresdesection {
+  font-family: Shrikhand,"cursive";
+  padding-left: 25px;
+  width: 1000px;
+}
+.boutonclass{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerblockfrancais{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.entree > div > h3 {
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.entree > div > p {
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  padding-top: 10px;
+  color: #2F2C2C;
+  width: 240px;
+  font-size: 12px;
+  padding-bottom: 13px;
+}
+.plat > div > h3 {
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.plat > div > p {
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  padding-top: 10px;
+  color: #2F2C2C;
+  width: 240px;
+  font-size: 12px;
+  padding-bottom: 13px;
+}
+  .dessert > div > h3 {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .dessert > div > p {
+    margin: 0 !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    padding-top: 10px;
+    color: #2F2C2C;
+    width: 240px;
+    font-size: 12px;
+    padding-bottom: 13px;
+  }
+  .dessertprix{
+    margin-left: 50px;
+    margin-right: 9px;
+    margin-top: 10px;
+    max-height: 15px;
+    max-width: 5px;
+  }
+  .platsprix{
+    margin-left: 50px;
+    margin-right: 5px;
+    margin-top: 10px;
+    max-height: 15px;
+    max-width: 5px;
+  }
+  .entreeprix{
+  margin-left: 50px;
+  margin-right: 5px;
+  margin-top: 10px;
+  max-height: 15px;
+  max-width: 5px;
+  }
+.entreeprix h4 {
+  text-decoration: black;
+}
+a:link{
+  text-decoration: none;
+}
+.inputs {
+  font-family: "Roboto";
+  display: flex;
+  padding: 0 1.5em;
+  height: 10%;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-bottom: hidden;
+  background: transparent;
+  flex-direction: row;
+  max-width: 120px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.fa-map-marker-alt{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.heartopacity{
+  opacity: 0;
+}
+.fa-arrow-left{
+  opacity: 1;
+  -webkit-text-fill-color: black;
+}
+.fa-hands-helping{
+  opacity: 1;
+  -webkit-text-fill-color: white;
+}
+.fa-utensils{
+  opacity: 1;
+  -webkit-text-fill-color: white;
+}
+.choisir{
+  background-color: #99e2d0;
+  margin: 0rem -1rem -1rem 1rem;
+  width: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+  opacity:0;
+  height:4rem;
+}
+.dessert:hover .choisir{
+  margin-right: -1rem;
+  opacity: 1;
+  width: 4rem;
+  height:4rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dessert:hover .choisir .div{
+  transform: rotate(0);
+}
+.dessert:hover{
+  transition-duration: 1s;
+}
+.plat:hover .choisir{
+  margin-right: -1rem;
+  opacity: 1;
+  width: 4rem;
+  height:4rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.plat:hover .choisir .div{
+  transform: rotate(0);
+}
+.plat:hover{
+  transition-duration: 1s;
+}
+.entree:hover .choisir{
+  margin-right: -1rem;
+  opacity: 1;
+  width: 4rem;
+  height:4rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.entree:hover .choisir .div{
+  transform: rotate(0);
+}
+.entree:hover{
+  transition-duration: 1s;
+}
+.choisir div .fa-check{
+  color: #99e2d0;
+  opacity:1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:#99e2d0;
+}
+.choisir div{
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 20px;
+}
+.entree:hover .choisir i {
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+.plat:hover .choisir i {
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+.dessert:hover .choisir i {
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nouveaux {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: .5rem;
+  border-radius: .125rem;
+  top: 1rem;
+  right: .75rem;
+  position:absolute;
+}

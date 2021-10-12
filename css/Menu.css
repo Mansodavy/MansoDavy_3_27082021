@@ -1,0 +1,28 @@
+@import "../css/partials/header.css";
+@import "../css/partials/heart.css";
+@import "../css/partials/buttons.css";
+@import "../css/partials/sections.css";
+@import "../css/partials/footer.css";
+@import "../css/partials/phone.css";
+@font-face { 
+    font-family: 'Shrikhand';
+    src: url("../Font/Shrikhand-Regular.ttf");
+}
+@font-face { 
+font-family: 'Roboto';
+src: url("../Font/Roboto-Regular.ttf");
+}
+h1{
+    font-family: "Shrikhand", serif;
+    text-decoration:none;
+    color:#000000
+  }
+h2{
+    font-family: "Roboto", serif;
+    text-decoration:none;
+    color:#000000
+}
+/* {
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+    }*/

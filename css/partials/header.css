@@ -1,0 +1,21 @@
+.contenairhead {
+  text-align: center;
+  background: white;
+}
+.contenairhead .fa-arrow-left {
+  color: Black;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.localisation {
+  background: #eaeaea;
+  text-align: center;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+.fa-arrow-left {
+  color: black;
+}
