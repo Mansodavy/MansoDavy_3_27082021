@@ -21,3 +21,8 @@
 .fa-arrow-left {
   color: black;
 }
+#headtitle h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 35px;
+}
